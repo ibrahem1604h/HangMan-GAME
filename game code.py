@@ -19,9 +19,7 @@ while "_" in space:
   elif user_char != random_words[pasition]:
       chance=chance-1
       
- ## if chance==0:
-    ##break#if chance==0:
-    # print("you lose")
+ 
         
   print((" ").join(space))
   print(f"you have {chance} chance left")
@@ -36,6 +34,7 @@ while "_" in space:
       |
 =========
     """)
+    
   elif chance==5:
     print("""
       +---+
